@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscando a Molly</title>
+</head>
+<body>
+    <header>
+        <h1>Buscando a Molly</h1>
+        <p>La aventura de una perrita chihuahua</p>
+    </header>
+
+    <details>
+    <summary>Revisa en donde estas</summary>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../casa/pistas.html">Casa</a></li>
+            <li><a href="../paso_y_pedales/calle.html">Pasos y Pedales</a></li>
+            <li><a href="mercado.html">Panajachel</a></li>
+        </ul>
+    </nav>
+    </details>
+
+    <main>
+        <article>
+            <h2>Panajachel</h2>
+            <p> 
+                Decidiste emprender un viaje a Panajachel pues Molly tiene una foto en el lago, tal vez tengas suerte y la encuentres por ahí.
+            </p>
+            
+            <figure>
+                <img src="../images/MollyPana.jpeg" width="300"
+                alt="Foto de perro chihuahua en Panajachel">
+                <figcaption>Molly en Panajachel</figcaption>
+            </figure>
+
+            <section>
+                <h3>Nuevas Pistas</h3>
+                <p>Encontraste el collar de Molly en el mercado camino al lago. <br>
+                Pareciera que no lleva mucho tiempo aqui, es posible que Molly siga cerca.</p>
+            </section>
+
+            <section>
+                <h3>Hablando con vendedores</h3>
+                <p>Posrias tomarte un tiempo y hablar con los vendedores del mercado para ver si alguien ha visto a Molly.<br>
+                El tiempo se te acaba, podrias tambien seguir buscando en el lago.</p>
+                
+                <button onclick="document.getElementById('vendedor').showModal()">
+                    Hablar con un vendedor
+                </button>
+                <dialog id="vendedor">
+                <form method="dialog">
+                    <p>Vi al perrito con varias personas</p>
+                    <button id="gracias">Gracias</button>
+                </form>
+                </dialog>
+
+                
+                <button onclick="document.getElementById('niño').showModal()">
+                    Hablar con un niño
+                </button>
+                <dialog id="niño">
+                <form method="dialog">
+                    <p>Yo la vi en Instagram, es un perro muy famoso, me gustaria conocerla</p>
+                    <button id="gracias">Gracias</button>
+                </form>
+                </dialog>
+
+                
+                <button onclick="document.getElementById('señora').showModal()">
+                    Hablar con una señora
+                </button>
+                <dialog id="señora">
+                <form method="dialog">
+                    <p> Yo vi a ese perro ayer, estaba en el hotel de la esquina</p>
+                    <button id="gracias">Gracias</button>
+                </form>
+                </dialog>
+
+                <button onclick="document.getElementById('Policia').showModal()">
+                    Hablar con un policia
+                </button>
+                <dialog id="Policia">
+                <form method="dialog">
+                    <p> Acabo de ver al perro en el lago, apurate antes de que se vaya.</p>
+                    <button id="gracias">Gracias</button>
+                </form>
+                </dialog>
+
+            </section>
+            <section>
+                <h3>¿Qué quieres hacer?</h3>
+                <nav>
+                    <ul>
+                        <li><a href="../casa/pistas.html">Volver a casa</a></li>
+                        <li><a href="hotel.html">Ir al hotel</a></li>
+                        <li><a href="lago.html">Ir al lago</a></li>
+
+                    </ul>
+                </nav>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p> Molly es un perrito chihuahua bastante curioso, pero hace 3 dias que salio de casa y aun no a regresado.</p>
+    </footer>
+    
+</body>
+</html>
