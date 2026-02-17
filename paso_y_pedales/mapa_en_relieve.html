@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscando a Molly</title>
+</head>
+<body>
+    <header>
+        <h1>Buscando a Molly</h1>
+        <p>La aventura de una perrita chihuahua</p>
+    </header>
+
+    <details>
+    <summary>Revisa en donde estas</summary>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../casa/pistas.html">Casa</a></li>
+            <li><a href="calle.html">Pasos y Pedales</a></li>
+            <li><a href="chihuahuas.html">Chihuahuas</a></li>
+            <li><a href="perros.html">Perros grandes</a></li>
+            <li><a href="mapa_en_relieve.html">Mapa en Relieve</a></li>
+        </ul>
+    </nav>
+    </details>
+
+    <main>
+        <article>
+            <h2>Mapa en Relieve</h2>
+            <p> 
+                Decidiste seguir buscando en la calle y llegaste al Mapa en Relieve, un lugar mas solitario, peo ¿Podria Molly estar aqui?
+            </p>
+            
+            <figure>
+                <img src="../images/Mapa en relieve.jpg" width="300"
+                alt="Foto del Mapa en Relieve desde alto">
+                <figcaption>El Mapa en Relieve</figcaption>
+            </figure>
+
+            <section>
+                <h3>Buscando mas pistas</h3>
+                <p>Encontraste el vestido de flores de Molly en la entrada, es muy probable que ella esté por aquí. <br>
+                No hay muchas personas para preguntar, pero puedes hablar con el guardia de seguridad y volver a casa.</p>
+
+                <button onclick="document.getElementById('Pista').showModal()">
+                    Hablar con el guardia de seguridad
+                </button>
+                <dialog id="Pista">
+                <form method="dialog">
+                    <p>Si, vi a Molly, se fue hace unos minutos. <br>
+                    Escuche que planeaban ir a Antigua Guatemala
+                    </p>
+                    <button id="gracias">Gracias</button>
+                </form>
+                </dialog>
+            </section>
+
+            <section>
+                <h3>Regresar a casa</h3>
+                <nav>
+                    <ul>
+                        <li><a href="../casa/pistas.html">Volver a casa</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p> Molly es un perrito chihuahua bastante curioso, pero hace 3 dias que salio de casa y aun no a regresado.</p>
+    </footer>
+    
+</body>
+</html>
